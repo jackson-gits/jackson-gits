@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=Jackson+Raj+A;software+developer;ai+engineer;open+to+entry-level+roles" alt="Jackson Raj A" />
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=Jackson+Raj+A;software+developer;ai+engineer;open+to+entry-level+roles" alt="Jackson Raj A | software developer, AI engineer" />
 
 </div>
 
@@ -20,15 +20,19 @@ class Jackson:
 
 ### Projects
 
-**Bodilicious**: e-commerce platform, built solo for a freelance client
-Took it from requirements to deployment on its own. It handles the full order lifecycle, including COD, cancellations and returns/refunds. Payments follow a Quote → Init → Verify flow with HMAC-SHA256 signature checks, so prices can't be tampered with. Emails, notifications and Shiprocket logistics syncing run as background jobs on Redis + BullMQ, with retries and exponential backoff.
+**Bodilicious**: e-commerce platform, built solo for a freelance client<br>
+Took it from requirements to deployment on its own. It handles the full order lifecycle, including COD, cancellations and returns/refunds. Payments follow a Quote → Init → Verify flow with HMAC-SHA256 signature checks, so prices can't be tampered with. Emails, notifications and Shiprocket logistics syncing run as background jobs on Redis + BullMQ, with retries and exponential backoff.<br>
 `React` `TypeScript` `Node.js` `Express` `MongoDB` `Redis` `Razorpay`
 
-**Creuset**: a security gate for AI agents
-Fail-closed by design. Before an agent ships, it has to pass 26 adversarial tests (prompt injection, tool misuse, jailbreaks, policy and scope violations), scored by deterministic rules plus an LLM judge using median-of-N sampling. Agents run in a locked-down Docker sandbox with a single allowlisted egress proxy. Deploys are blue-green, and a traffic monitor rolls back automatically in about 2.5 seconds when it detects anomalies.
+<br>
+
+**Creuset**: a security gate for AI agents<br>
+Fail-closed by design. Before an agent ships, it has to pass 26 adversarial tests (prompt injection, tool misuse, jailbreaks, policy and scope violations), scored by deterministic rules plus an LLM judge using median-of-N sampling. Agents run in a locked-down Docker sandbox with a single allowlisted egress proxy. Deploys are blue-green, and a traffic monitor rolls back automatically in about 2.5 seconds when it detects anomalies.<br>
 `Python` `FastAPI` `Docker`
 
-**UPI mule-account ring detection**: in progress
+<br>
+
+**UPI mule-account ring detection**: in progress<br>
 Detecting rings of mule accounts that move scam money through UPI. Built for the IBM Z Datathon 2026.
 
 <!-- When a repo is public, link its name above, e.g. **[Creuset](https://github.com/jackson-gits/<repo-name>)** -->
