@@ -1,20 +1,6 @@
-<div align="center">
-
 <img src="./header.svg" width="560" alt="Jackson Raj A | software developer, AI engineer" />
 
-</div>
-
-```python
-# about.py
-class Jackson:
-    name      = "Jackson Raj A"
-    role      = "Software Developer / AI Engineer"
-    based_in  = "Chennai, India"
-    education = "B.E. Computer Science Engineering, Saveetha Engineering College"
-    strengths = ["secure backend design", "full-stack (MERN + TypeScript)", "AI agent safety testing"]
-    building  = "mule-account ring detection for UPI scams  # IBM Z Datathon 2026"
-    open_to   = ["entry-level software engineering", "trainee roles", "internships"]
-```
+<img src="./about.svg" width="780" alt="about.py: Jackson Raj A, Software Developer / AI Engineer, Chennai, India. B.E. Computer Science Engineering, Saveetha Engineering College. Strengths: secure backend design, full-stack (MERN + TypeScript), AI agent safety testing. Building mule-account ring detection for UPI scams for the IBM Z Datathon 2026. Open to entry-level software engineering, trainee roles and internships." />
 
 <br>
 
