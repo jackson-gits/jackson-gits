@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=Jackson+Raj+A;software+developer;ai+engineer;open+to+entry-level+roles" alt="Jackson Raj A | software developer, AI engineer" />
+<img src="./header.svg" width="560" alt="Jackson Raj A | software developer, AI engineer" />
 
 </div>
 
