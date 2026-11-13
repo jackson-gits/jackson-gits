@@ -6,7 +6,7 @@
 
 ### Projects
 
-**Bodilicious**: e-commerce platform, built solo for a freelance client<br>
+**Bodilicious**: e-commerce platform, built for a freelance client<br>
 Took it from requirements to deployment on its own. It handles the full order lifecycle, including COD, cancellations and returns/refunds. Payments follow a Quote → Init → Verify flow with HMAC-SHA256 signature checks, so prices can't be tampered with. Emails, notifications and Shiprocket logistics syncing run as background jobs on Redis + BullMQ, with retries and exponential backoff.<br>
 `React` `TypeScript` `Node.js` `Express` `MongoDB` `Redis` `Razorpay`
 
